@@ -22,7 +22,3 @@
 - 安装方式：`npm install -g @openai/codex`
 - 更新方式：`npm update -g @openai/codex`
 - 配置文件：`~/.codex/AGENTS.md`
-
----
-
-> 当前状态：占位文件，待后续补充 Codex 的 AGENTS.md 内容。
