@@ -13,9 +13,9 @@
 
 ## 场景化规则索引
 遇到以下场景时，先读取对应规则文件再继续执行：
-- QA 数据分析、回溯、AAR、评审、质量报告 → `.codex/rules/qa-mode.md`
-- 需要编写 Python/脚本辅助数据处理 → `.codex/rules/coding-mode.md`
-- 长任务或多步骤批量操作 → `.codex/rules/long-task.md`
+- QA 数据分析、回溯、AAR、评审、质量报告 → `references/qa-mode.md`
+- 需要编写 Python/脚本辅助数据处理 → `references/coding-mode.md`
+- 长任务或多步骤批量操作 → `references/long-task.md`
 
 ## 文件操作安全（全局强制）
 1. **备份优先**：任何配置文件、关键成果物等非临时文件在编辑、修改、删除前，必须先创建备份副本 `源文件名.bak.YYYYMMDD_HHMMSS`，与源文件同目录。备份失败立即停止。
