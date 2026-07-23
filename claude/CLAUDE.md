@@ -26,6 +26,14 @@
 | 脚本辅助编码 | 编写 Python 等脚本处理数据时的编码规范 | [coding-guidelines.md](coding-guidelines.md) |
 | Skill 设计与维护 | 创建或维护 Claude Code Skill 时的工程化规范 | [SKILL_DESIGN.md](SKILL_DESIGN.md) |
 
+## 环境配置与工具链
+
+### Skills 统一管理
+- 本机安装 **skills-manager 桌面应用**，统一管理所有智能体的 skills。
+- 统一 skill 仓库路径：`C:\Users\Administrator\.skills-manager\skills`
+- 各智能体（Claude Code、Codex、Kimi Code 等）的 skills 目录均通过**软链接（symlink）**指向上述仓库中的唯一副本，禁止在各智能体目录下直接创建或修改 skill 文件。
+- 如需新增、更新或删除 skill，必须在 `C:\Users\Administrator\.skills-manager\skills` 下操作，然后同步软链接。
+
 ## 生效标志
 
 QA 工作输出准确规范，数据处理任务高效简洁；无关改动显著减少；澄清性问题在编码实现之前就被提出，而不是等到犯错之后。
