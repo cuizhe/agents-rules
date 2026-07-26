@@ -1,0 +1,23 @@
+{
+  "eval_id": 2,
+  "eval_name": "简洁自然语言",
+  "prompt": "填日报：民政局AI自动化测试看了半小时，充值中心项目CP评审1小时，公共工时云服务器续期沟通1小时",
+  "expected_output": "解析出2个项目工时和1个公共工时，生成预览草稿。",
+  "assertions": [
+    {
+      "text": "项目数量正确",
+      "passed": null,
+      "evidence": ""
+    },
+    {
+      "text": "公共工时存在",
+      "passed": null,
+      "evidence": ""
+    },
+    {
+      "text": "AI关键词映射正确",
+      "passed": null,
+      "evidence": ""
+    }
+  ]
+}

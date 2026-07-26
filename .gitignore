@@ -1,0 +1,31 @@
+# Secrets - NEVER commit
+auth.json
+*.key
+*.pem
+*.token
+
+# Sessions (large, contain chat history)
+sessions/
+
+# SQLite runtime files
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Backups
+*.bak.*
+
+# Temp
+cache/
+temp/
+logs/
+*.tmp
+
+# Node modules (if any)
+node_modules/
+npm/
+pi-hermes-memory/
+
+# OS files
+Thumbs.db
+.DS_Store

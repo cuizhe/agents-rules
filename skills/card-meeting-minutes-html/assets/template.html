@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{TITLE}}</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+            background-color: #f5f7fa;
+            padding: 32px 24px;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            color: #1a3a5c;
+            margin-bottom: 28px;
+        }
+        .core-section {
+            background-color: #eef6ff;
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin-bottom: 28px;
+        }
+        .core-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 14px;
+        }
+        .core-header .emoji {
+            font-size: 20px;
+            margin-right: 8px;
+        }
+        .core-header h2 {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1a3a5c;
+        }
+        .core-section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .core-section ul li {
+            position: relative;
+            padding-left: 16px;
+            margin-bottom: 10px;
+            font-size: 14.5px;
+            color: #334155;
+            line-height: 1.7;
+        }
+        .core-section ul li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #3b82f6;
+            font-weight: bold;
+        }
+        .section-title {
+            font-size: 20px;
+            font-weight: 700;
+            color: #1a3a5c;
+            margin-bottom: 20px;
+        }
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 28px;
+            margin-bottom: 28px;
+        }
+        @media (max-width: 900px) {
+            .cards-grid { grid-template-columns: 1fr; }
+        }
+        .card {
+            border-radius: 12px;
+            padding: 24px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.12);
+        }
+        .card-blue { background-color: #e6f7ff; }
+        .card-cyan { background-color: #e6fffb; }
+        .card-lime { background-color: #f6ffed; }
+        /* 兼容 generate_minutes.py 生成的两种结构 */
+        .card-header, .card > h3 {
+            display: flex;
+            align-items: center;
+            margin-bottom: 14px;
+        }
+        .card-header .emoji, .card > h3 .emoji {
+            font-size: 18px;
+            margin-right: 8px;
+        }
+        .card-header h3, .card > h3 {
+            font-size: 17px;
+            font-weight: 600;
+        }
+        .card-blue .card-header h3, .card-blue > h3 { color: #0066cc; }
+        .card-cyan .card-header h3, .card-cyan > h3 { color: #08979c; }
+        .card-lime .card-header h3, .card-lime > h3 { color: #389e0d; }
+        .card-inner, .card > div {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .card-inner h4, .card > div > h4 {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a3a5c;
+            margin-bottom: 12px;
+        }
+        .card-inner ul, .card > div > ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .card-inner ul li, .card > div > ul > li {
+            position: relative;
+            padding-left: 14px;
+            margin-bottom: 12px;
+            font-size: 13.5px;
+            color: #475569;
+            line-height: 1.8;
+        }
+        .card-inner ul li::before, .card > div > ul > li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #94a3b8;
+        }
+        .action-section {
+            background-color: #fff7e6;
+            border-radius: 12px;
+            padding: 18px 24px;
+            margin-bottom: 28px;
+        }
+        .action-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 14px;
+        }
+        .action-header .emoji {
+            font-size: 18px;
+            margin-right: 8px;
+        }
+        .action-header h3 {
+            font-size: 17px;
+            font-weight: 600;
+            color: #d46b08;
+        }
+        .action-inner {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 16px;
+        }
+        .action-inner h4 {
+            font-size: 15px;
+            font-weight: 600;
+            color: #1a3a5c;
+            margin-bottom: 14px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13.5px;
+            color: #475569;
+        }
+        thead th {
+            background-color: #f8fafc;
+            padding: 10px 12px;
+            text-align: left;
+            font-weight: 600;
+            color: #334155;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        tbody td {
+            padding: 10px 12px;
+            border-bottom: 1px solid #f1f5f9;
+            vertical-align: top;
+            line-height: 1.6;
+        }
+        tbody tr:hover {
+            background-color: #f8fafc;
+        }
+        .footer {
+            text-align: right;
+            color: #94a3b8;
+            font-size: 12px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 标题 -->
+        <h1>{{TITLE}}</h1>
+
+        <!-- 核心结论 -->
+        <div class="core-section">
+            <div class="core-header">
+                <span class="emoji">{{CONCLUSION_EMOJI}}</span>
+                <h2>{{CONCLUSION_TITLE}}</h2>
+            </div>
+            <ul>
+{{CONCLUSION_ITEMS}}
+            </ul>
+        </div>
+
+        <!-- 三大模块卡片 -->
+        <h2 class="section-title">{{SECTIONS_TITLE}}</h2>
+        <div class="cards-grid">
+{{CARDS}}
+        </div>
+
+        <!-- 具体行动项 -->
+        <div class="action-section">
+            <div class="action-header">
+                <span class="emoji">{{ACTION_EMOJI}}</span>
+                <h3>{{ACTION_TITLE}}</h3>
+            </div>
+            <div class="action-inner">
+                <h4>{{ACTION_SUBTITLE}}</h4>
+                <div style="overflow-x:auto;">
+                    <table style="table-layout: fixed;">
+                        <thead>
+                            <tr>
+                                <th style="width:80px;">序号</th>
+                                <th style="width:55%;">任务内容</th>
+                                <th style="width:100px;">责任人</th>
+                                <th style="width:200px;">完成时间</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+{{ACTION_ROWS}}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- 页脚 -->
+        <div class="footer">
+            {{FOOTER_LINE}}
+        </div>
+    </div>
+</body>
+</html>

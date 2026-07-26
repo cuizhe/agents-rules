@@ -1,0 +1,16 @@
+{
+  "author": "vercel-labs",
+  "created_at": 1781417450,
+  "description": "Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons, taking…",
+  "install_url": "https://github.com/vercel-labs/agent-browser",
+  "marketplace_skill_id": "sk_7262d85cdd05e970",
+  "marketplace_skill_slug": "vercel-labs/agent-browser/agent-browser",
+  "marketplace_source_id": "src_skills_sh_home",
+  "name": "agent-browser",
+  "remote_revision": "market-api-fnv64:808903121e2ea6f2",
+  "repo_url": "https://github.com/vercel-labs/agent-browser",
+  "skill_path": "agent-browser",
+  "source": "marketplace",
+  "tags": [],
+  "version": "1.0"
+}

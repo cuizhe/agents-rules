@@ -1,0 +1,369 @@
+{
+  "total": 78,
+  "leafCount": 49,
+  "nodes": [
+    {
+      "text": "交付管理类",
+      "isLeaf": false
+    },
+    {
+      "text": "部门业务与质量规划",
+      "isLeaf": false
+    },
+    {
+      "text": "部门规划",
+      "isLeaf": true
+    },
+    {
+      "text": "制度与标准",
+      "isLeaf": true
+    },
+    {
+      "text": "机会点识别与业务拓展",
+      "isLeaf": true
+    },
+    {
+      "text": "供应商测评管理",
+      "isLeaf": false
+    },
+    {
+      "text": "测评标准对齐与解读",
+      "isLeaf": true
+    },
+    {
+      "text": "部门级测评看护",
+      "isLeaf": true
+    },
+    {
+      "text": "客户满意度管理",
+      "isLeaf": false
+    },
+    {
+      "text": "客户重点工作推动",
+      "isLeaf": true
+    },
+    {
+      "text": "客户拜访与沟通",
+      "isLeaf": true
+    },
+    {
+      "text": "客户侧汇报",
+      "isLeaf": true
+    },
+    {
+      "text": "客户声音闭环",
+      "isLeaf": true
+    },
+    {
+      "text": "客户侧审计复核",
+      "isLeaf": true
+    },
+    {
+      "text": "能力建设与知识管理",
+      "isLeaf": false
+    },
+    {
+      "text": "人员能力培养及考试认证",
+      "isLeaf": true
+    },
+    {
+      "text": "AI工具引入与推广策划",
+      "isLeaf": true
+    },
+    {
+      "text": "经验总结及分享",
+      "isLeaf": true
+    },
+    {
+      "text": "团队建设与氛围管理",
+      "isLeaf": false
+    },
+    {
+      "text": "人员梯队建设",
+      "isLeaf": true
+    },
+    {
+      "text": "团队氛围建设",
+      "isLeaf": true
+    },
+    {
+      "text": "部门资源与成本管理",
+      "isLeaf": false
+    },
+    {
+      "text": "排产与PO运营",
+      "isLeaf": true
+    },
+    {
+      "text": "招投标管理",
+      "isLeaf": true
+    },
+    {
+      "text": "部门运作与专项支撑",
+      "isLeaf": false
+    },
+    {
+      "text": "内部专项工作",
+      "isLeaf": true
+    },
+    {
+      "text": "部门例行运作",
+      "isLeaf": true
+    },
+    {
+      "text": "内部汇报",
+      "isLeaf": true
+    },
+    {
+      "text": "集团事务支撑",
+      "isLeaf": true
+    },
+    {
+      "text": "人力资源管理",
+      "isLeaf": false
+    },
+    {
+      "text": "部门人力规划",
+      "isLeaf": false
+    },
+    {
+      "text": "部门年度人力规划制定",
+      "isLeaf": true
+    },
+    {
+      "text": "部门人力需求预测",
+      "isLeaf": true
+    },
+    {
+      "text": "部门招聘管理",
+      "isLeaf": false
+    },
+    {
+      "text": "部门招聘流程优化",
+      "isLeaf": true
+    },
+    {
+      "text": "部门招聘数据分析",
+      "isLeaf": true
+    },
+    {
+      "text": "部门绩效管理",
+      "isLeaf": false
+    },
+    {
+      "text": "部门绩效考核",
+      "isLeaf": true
+    },
+    {
+      "text": "绩效结果应用",
+      "isLeaf": true
+    },
+    {
+      "text": "部门薪酬管理",
+      "isLeaf": false
+    },
+    {
+      "text": "部门薪酬核算支持",
+      "isLeaf": true
+    },
+    {
+      "text": "薪酬福利与成本管控",
+      "isLeaf": true
+    },
+    {
+      "text": "部门福利管理",
+      "isLeaf": false
+    },
+    {
+      "text": "部门福利活动组织",
+      "isLeaf": true
+    },
+    {
+      "text": "激励方案测算与执行",
+      "isLeaf": true
+    },
+    {
+      "text": "部门培训管理",
+      "isLeaf": false
+    },
+    {
+      "text": "部门培训需求分析",
+      "isLeaf": true
+    },
+    {
+      "text": "培训效果评估",
+      "isLeaf": true
+    },
+    {
+      "text": "部门人力数据分析",
+      "isLeaf": false
+    },
+    {
+      "text": "部门人力报表编制",
+      "isLeaf": true
+    },
+    {
+      "text": "部门人力趋势分析",
+      "isLeaf": true
+    },
+    {
+      "text": "部门行政事务",
+      "isLeaf": false
+    },
+    {
+      "text": "部门会议组织",
+      "isLeaf": true
+    },
+    {
+      "text": "部门资产管理",
+      "isLeaf": true
+    },
+    {
+      "text": "部门人员管理",
+      "isLeaf": false
+    },
+    {
+      "text": "人员入离职与异动管理",
+      "isLeaf": true
+    },
+    {
+      "text": "闲置/高成本人力处理",
+      "isLeaf": true
+    },
+    {
+      "text": "人员差旅管理",
+      "isLeaf": true
+    },
+    {
+      "text": "人员转正管理",
+      "isLeaf": true
+    },
+    {
+      "text": "内部干系人沟通",
+      "isLeaf": true
+    },
+    {
+      "text": "人员合同管理",
+      "isLeaf": true
+    },
+    {
+      "text": "仲裁与劳动争议处理",
+      "isLeaf": true
+    },
+    {
+      "text": "内控合规",
+      "isLeaf": false
+    },
+    {
+      "text": "部门的风险地图",
+      "isLeaf": false
+    },
+    {
+      "text": "部门流程制度优化",
+      "isLeaf": false
+    },
+    {
+      "text": "流程中控制",
+      "isLeaf": false
+    },
+    {
+      "text": "合规审核",
+      "isLeaf": true
+    },
+    {
+      "text": "自查",
+      "isLeaf": false
+    },
+    {
+      "text": "合规自查",
+      "isLeaf": true
+    },
+    {
+      "text": "整改",
+      "isLeaf": false
+    },
+    {
+      "text": "合规整改",
+      "isLeaf": true
+    },
+    {
+      "text": "培训赋能",
+      "isLeaf": false
+    },
+    {
+      "text": "信息安全&网络安全",
+      "isLeaf": false
+    },
+    {
+      "text": "卡证管理",
+      "isLeaf": false
+    },
+    {
+      "text": "卡证办理与归还",
+      "isLeaf": true
+    },
+    {
+      "text": "场地管理",
+      "isLeaf": false
+    },
+    {
+      "text": "场地安全巡检",
+      "isLeaf": true
+    },
+    {
+      "text": "其它",
+      "isLeaf": false
+    }
+  ],
+  "leaves": [
+    "部门规划",
+    "制度与标准",
+    "机会点识别与业务拓展",
+    "测评标准对齐与解读",
+    "部门级测评看护",
+    "客户重点工作推动",
+    "客户拜访与沟通",
+    "客户侧汇报",
+    "客户声音闭环",
+    "客户侧审计复核",
+    "人员能力培养及考试认证",
+    "AI工具引入与推广策划",
+    "经验总结及分享",
+    "人员梯队建设",
+    "团队氛围建设",
+    "排产与PO运营",
+    "招投标管理",
+    "内部专项工作",
+    "部门例行运作",
+    "内部汇报",
+    "集团事务支撑",
+    "部门年度人力规划制定",
+    "部门人力需求预测",
+    "部门招聘流程优化",
+    "部门招聘数据分析",
+    "部门绩效考核",
+    "绩效结果应用",
+    "部门薪酬核算支持",
+    "薪酬福利与成本管控",
+    "部门福利活动组织",
+    "激励方案测算与执行",
+    "部门培训需求分析",
+    "培训效果评估",
+    "部门人力报表编制",
+    "部门人力趋势分析",
+    "部门会议组织",
+    "部门资产管理",
+    "人员入离职与异动管理",
+    "闲置/高成本人力处理",
+    "人员差旅管理",
+    "人员转正管理",
+    "内部干系人沟通",
+    "人员合同管理",
+    "仲裁与劳动争议处理",
+    "合规审核",
+    "合规自查",
+    "合规整改",
+    "卡证办理与归还",
+    "场地安全巡检"
+  ]
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "query": "填日报：民政局AI自动化测试1h，充值中心项目CP评审1h，公共工时云服务器续期1h",
+    "should_trigger": true
+  },
+  {
+    "query": "帮我写今天的工作记录，中移信息CP评审1小时，江苏端木评审半小时",
+    "should_trigger": true
+  },
+  {
+    "query": "今天做了审计署的CP评审备案，甘肃畜牧的备案，各半小时，帮我报工",
+    "should_trigger": true
+  },
+  {
+    "query": "工时怎么填？我今天做了H5项目的AI测试和民政局的需求评审",
+    "should_trigger": true
+  },
+  {
+    "query": "帮我随机生成一个今天的日报草稿看看，事情太多记不清了",
+    "should_trigger": true
+  },
+  {
+    "query": "写日报，中移信息充值中心项目的CP评审计划制定花了1小时",
+    "should_trigger": true
+  },
+  {
+    "query": "今天的工作：云服务器续期状态跟踪1小时，帮我填入系统",
+    "should_trigger": true
+  },
+  {
+    "query": "报工：质量评估半小时，测试用例编写1小时，公共工时会议1小时",
+    "should_trigger": true
+  },
+  {
+    "query": "帮我看看今天的工时还没满8小时，帮我补一下",
+    "should_trigger": true
+  },
+  {
+    "query": "日报还没写，帮我生成一下今天的工作日志",
+    "should_trigger": true
+  },
+  {
+    "query": "帮我写一份周报，总结本周工作进展",
+    "should_trigger": false
+  },
+  {
+    "query": "如何编写高质量的测试用例？",
+    "should_trigger": false
+  },
+  {
+    "query": "帮我写一个Python脚本处理Excel数据",
+    "should_trigger": false
+  },
+  {
+    "query": "帮我分析这个项目的风险点",
+    "should_trigger": false
+  },
+  {
+    "query": "如何配置Chrome远程调试端口？",
+    "should_trigger": false
+  },
+  {
+    "query": "帮我看看这个代码有什么bug",
+    "should_trigger": false
+  },
+  {
+    "query": "帮我起草一份会议纪要",
+    "should_trigger": false
+  },
+  {
+    "query": "帮我整理一下这个项目的文档结构",
+    "should_trigger": false
+  },
+  {
+    "query": "今天天气怎么样？",
+    "should_trigger": false
+  },
+  {
+    "query": "帮我安装一个Python库",
+    "should_trigger": false
+  }
+]

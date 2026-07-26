@@ -1,0 +1,16 @@
+{
+  "author": null,
+  "created_at": null,
+  "description": null,
+  "install_url": null,
+  "marketplace_skill_id": "github-direct-https---github-com-microsoft-markitdown",
+  "marketplace_skill_slug": "markitdown",
+  "marketplace_source_id": "github_direct",
+  "name": "markitdown",
+  "remote_revision": "gh-tree-fnv64:03844d386404844b",
+  "repo_url": "https://github.com/microsoft/markitdown",
+  "skill_path": "",
+  "source": "marketplace",
+  "tags": [],
+  "version": "1.0"
+}

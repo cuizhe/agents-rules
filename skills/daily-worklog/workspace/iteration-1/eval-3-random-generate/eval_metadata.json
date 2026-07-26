@@ -1,0 +1,23 @@
+{
+  "eval_id": 3,
+  "eval_name": "随机生成请求",
+  "prompt": "今天事情太多记不清了，帮我随机生成一个今天的日报草稿看看",
+  "expected_output": "识别为完全随机生成模式，运行 --random full --preview，展示5-6条随机生成的工时记录。",
+  "assertions": [
+    {
+      "text": "使用随机生成模式",
+      "passed": null,
+      "evidence": ""
+    },
+    {
+      "text": "生成记录数量合理",
+      "passed": null,
+      "evidence": ""
+    },
+    {
+      "text": "总工时等于8",
+      "passed": null,
+      "evidence": ""
+    }
+  ]
+}

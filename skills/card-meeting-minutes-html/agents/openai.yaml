@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "卡片式会议纪要"
+  short_description: "Generate meeting minutes as HTML with card+table layout"
+  default_prompt: "Use $meeting-minutes-html to convert the following meeting content into a structured HTML meeting minutes document with core conclusions, three-column cards, and action items table."
