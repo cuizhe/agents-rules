@@ -5,7 +5,6 @@ auth.json
 *.token
 
 # Pi agent - managed in separate repo (gitee.com/cui-zhe-ok/pi-agent)
-pi/
 AGENTS.md
 /models.json
 /settings.json
