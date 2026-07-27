@@ -34,6 +34,7 @@ logs/
 # Node modules (if any)
 node_modules/
 npm/
+skills/
 
 # OS files
 Thumbs.db
