@@ -1,39 +1,10 @@
 # Secrets - NEVER commit
-auth.json
 *.key
 *.pem
 *.token
 
-# Pi agent - managed in separate repo (gitee.com/cui-zhe-ok/pi-agent)
-AGENTS.md
-/models.json
-/settings.json
-/models-store.json
-/bin
-/extensions
-pi-hermes-memory/
-
-# Sessions (large, contain chat history)
-sessions/
-
-# SQLite runtime files
-*.sqlite
-*.sqlite-shm
-*.sqlite-wal
-
 # Backups
 *.bak.*
-
-# Temp
-cache/
-temp/
-logs/
-*.tmp
-
-# Node modules (if any)
-node_modules/
-npm/
-skills/
 
 # OS files
 Thumbs.db
