@@ -1,8 +1,13 @@
 # Secrets - NEVER commit
 auth.json
+pi/auth.json
 *.key
 *.pem
 *.token
+
+# Auto-generated
+models-store.json
+pi/models-store.json
 
 # Sessions (large, contain chat history)
 sessions/
@@ -25,6 +30,7 @@ logs/
 node_modules/
 npm/
 pi-hermes-memory/
+pi/skills/
 
 # OS files
 Thumbs.db
