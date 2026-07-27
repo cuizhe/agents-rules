@@ -1,13 +1,18 @@
 # Secrets - NEVER commit
 auth.json
-pi/auth.json
 *.key
 *.pem
 *.token
 
-# Auto-generated
-models-store.json
-pi/models-store.json
+# Pi agent - managed in separate repo (gitee.com/cui-zhe-ok/pi-agent)
+pi/
+AGENTS.md
+/models.json
+/settings.json
+/models-store.json
+/bin
+/extensions
+pi-hermes-memory/
 
 # Sessions (large, contain chat history)
 sessions/
@@ -29,8 +34,6 @@ logs/
 # Node modules (if any)
 node_modules/
 npm/
-pi-hermes-memory/
-pi/skills/
 
 # OS files
 Thumbs.db
